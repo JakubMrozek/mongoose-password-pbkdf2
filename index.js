@@ -18,7 +18,7 @@ module.exports = exports = function (schema, options) {
     if (password === '') return next();
 
     //creates hash only if password was updated
-    if (!this.isModified) return next();
+    if (!this.isModified(field)) return next();
 
     crypto.pbkdf2(password, options.salt, iterations, keylen, function(err, result){
       if (err) return next(err);

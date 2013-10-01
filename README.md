@@ -8,10 +8,10 @@ Mongoose plugin for creating passwords with pbkdf2
 
 ## Example
 
-```
+```js
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var password =require('mongoose-password-pbkdf2');
+var password = require('mongoose-password-pbkdf2');
 
 //user schema
 var fields = {

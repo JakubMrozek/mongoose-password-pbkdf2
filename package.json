@@ -1,6 +1,6 @@
 {
   "name": "mongoose-password-pbkdf2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Mongoose plugin for creating passwords with pbkdf2",
   "main": "index.js",
   "repository": {
