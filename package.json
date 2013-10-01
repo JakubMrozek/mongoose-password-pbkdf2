@@ -1,0 +1,20 @@
+{
+  "name": "mongoose-password-pbkdf2",
+  "version": "0.1.0",
+  "description": "Mongoose plugin for creating passwords with pbkdf2",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JakubMrozek/mongoose-password-pbkdf2.git"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "Jakub Mrozek <jakub.mrozek@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "1dd8e1e637db93b4a62b1d8a27112719030e64dd",
+  "bugs": {
+    "url": "https://github.com/JakubMrozek/mongoose-password-pbkdf2/issues"
+  }
+}
